@@ -6,7 +6,8 @@ namespace Generique
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestClasseGenerique classeGenerique = new TestClasseGenerique();
+            classeGenerique.CreationDeClasseGenerique();
         }
-    }
+    }    
 }

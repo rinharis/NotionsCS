@@ -21,6 +21,7 @@ namespace Generique
             for (int i = 0; i < 30; i++)
             {
                 maListe.Ajouter(i);
+                Console.WriteLine("Ajout d'element a l'indexe {0} : {1}", i, maListe.ObtenirElement(i));
             }
         }
     }

@@ -16,6 +16,18 @@ namespace Generique_Tp_ListeChainee
             myLinkedList.Insert(33, 1);
             myLinkedList.Insert(30, 1);
             ShowListFromFirst(myLinkedList);
+            myLinkedList.Delete(0);
+            ShowListFromFirst(myLinkedList);
+            myLinkedList.Delete(4);
+            ShowListFromFirst(myLinkedList);
+            myLinkedList.Delete(4);
+            ShowListFromFirst(myLinkedList);
+            myLinkedList.Delete(4);
+            ShowListFromFirst(myLinkedList);
+            myLinkedList.Delete(4);
+            ShowListFromFirst(myLinkedList);
+            myLinkedList = myLinkedList.Clear();
+            ShowListFromFirst(myLinkedList);
         }
 
         private void ShowListFromFirst(MyLinkedList<int> list)

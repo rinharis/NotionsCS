@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace Generique_Tp_ListeChainee
 {
@@ -77,8 +78,54 @@ namespace Generique_Tp_ListeChainee
             }
         }
 
+        public void Delete(int index)
+        {
+            //get element at wanted index
+            Linked<T> temp = GetLink(index);
+            
+            //if element is out of bounds, do nothing
+            if (temp == null)
+            {
+                Console.WriteLine("Nothing to delete at index " + index + ".");
+                return;
+            }
+            else
+                Console.WriteLine("Deleting value {0} at index {1}...", temp.Value, index);
+            
+            Linked<T> previous = temp.Previous;
+            Linked<T> next = temp.Next;
+
+            //if element is at first index
+            if (previous == null)
+            {
+                //if list has a single element
+                if(next == null)
+                    First = null;
+                else
+                {
+                    next.Previous = null;
+                    First = next;
+                }
+            }
+            //if element is at last index
+            else if (previous != null && next == null)
+                previous.Next = null;
+            //if element is at intermediate index (previous != null && next != null)
+            else
+            {
+                previous.Next = next;
+                next.Previous = previous;
+            }
+        }
+
+        public MyLinkedList<T> Clear()
+        {
+            Console.WriteLine("Clearing " + this.GetType().Name);
+            return new MyLinkedList<T>();
+        }
+
     }
 
-
+    
 
 }

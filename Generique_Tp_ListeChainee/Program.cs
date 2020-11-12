@@ -6,7 +6,8 @@ namespace Generique_Tp_ListeChainee
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestMyLinkedList testListeChainee = new TestMyLinkedList();
+            testListeChainee.Start();
         }
     }
 }

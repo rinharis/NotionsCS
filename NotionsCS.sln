@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generique", "Generique\Gene
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generique_Tp_ListeChainee", "Generique_Tp_ListeChainee\Generique_Tp_ListeChainee.csproj", "{2D9E3352-B235-4D29-8717-C469752C05FC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate_Lambda\Delegate.csproj", "{D5455601-95AB-4CAB-9AC4-E9E86E9873B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2D9E3352-B235-4D29-8717-C469752C05FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D9E3352-B235-4D29-8717-C469752C05FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D9E3352-B235-4D29-8717-C469752C05FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5455601-95AB-4CAB-9AC4-E9E86E9873B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5455601-95AB-4CAB-9AC4-E9E86E9873B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5455601-95AB-4CAB-9AC4-E9E86E9873B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5455601-95AB-4CAB-9AC4-E9E86E9873B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

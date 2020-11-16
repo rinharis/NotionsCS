@@ -7,7 +7,12 @@ namespace Generique
     
     public class TestClasseGenerique
     {
-        public void CreationDeClasseGenerique()
+        public TestClasseGenerique()
+        {
+            Add_And_Get_With_Generic();
+        }
+
+        public void Add_And_Get_With_Generic()
         {
             MaClasseGenerique<int> maListe = new MaClasseGenerique<int>();
             maListe.Ajouter(25);

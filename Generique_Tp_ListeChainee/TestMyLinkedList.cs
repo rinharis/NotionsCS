@@ -4,7 +4,12 @@ namespace Generique_Tp_ListeChainee
 {
     public class TestMyLinkedList
     {
-        public void Start()
+        public TestMyLinkedList()
+        {
+            Add_Insert_Delete_Clear();
+        }
+
+        public void Add_Insert_Delete_Clear()
         {
             MyLinkedList<int> myLinkedList = new MyLinkedList<int>();
             myLinkedList.Add(5);

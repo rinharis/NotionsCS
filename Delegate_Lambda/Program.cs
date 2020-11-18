@@ -9,6 +9,7 @@ namespace Delegate
         {
             TestDelegate testDelegate = new TestDelegate();
             TestGenericDelegate testGenericDelegate = new TestGenericDelegate();
+            TestEvent testEvent = new TestEvent();
         }
     }
 }

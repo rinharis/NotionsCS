@@ -13,6 +13,8 @@ namespace ClassLibraryUser
             Console.WriteLine("Obtenir id : " + ClassLibrary.Generateur.ObtenirIdentifiantUnique());
 
             //ClassLibrary.Encodage // belongs to another assembly so this internal class is not accessible here.
+
+            ClassLibrary.Generateur.AForge_Math_Tool_PowerOf2();
         }
     }
 }

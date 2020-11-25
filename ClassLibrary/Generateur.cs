@@ -18,5 +18,16 @@ namespace ClassLibrary
             }
             return chaine.Crypte();
         }
+
+        public static void AForge_Math_Tool_PowerOf2()
+        {
+            for(int i = 0; i < 10000; i++)
+            {
+                //Install AForge.Math throw Nugget Package Manager (in References)
+                if (AForge.Math.Tools.IsPowerOf2(i))
+                    Console.Write(i + ", ");
+            }
+            Console.WriteLine("are power of 2");
+        }
     }
 }

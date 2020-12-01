@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{D4236743-8159-4D3A-AC48-686482E6ED17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryUser", "ClassLibraryUser\ClassLibraryUser.csproj", "{6B1372B0-6683-47CB-B0EE-FC18E6375AEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryUser", "ClassLibraryUser\ClassLibraryUser.csproj", "{6B1372B0-6683-47CB-B0EE-FC18E6375AEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Generique_Tp_ListeChainee
+namespace Generique_List_Enum
 {
     class Program
     {
         static void Main(string[] args)
         {
-            _ = new TestMyLinkedList();
+            Console.WriteLine("Hello World!");
         }
     }
 }
